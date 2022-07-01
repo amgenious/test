@@ -76,21 +76,34 @@
 }
 .content h1{
     font-size: 80px;
+    text-align: center;
 }
 @media screen and (max-width:1484px){
     .content h1{
         font-size: 60px;
+        text-align: center;
     }
     .content h3{
         font-size: 20px;
+        text-align: center;
     }
 }
 @media screen and (max-width:700px){
     .content h3{
         font-size: 14px;
+        text-align: center;
     }
     .content h1{
         font-size: 40px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:430px) {
+    .content h1{
+        font-size:30px;
+    }
+    .content h3{
+        font-size: 10px;
     }
 }
 .pic_pres{
@@ -161,6 +174,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border-radius: 20px;
 }
 .team1:hover{
@@ -181,20 +195,20 @@
     }
 }
 @media screen and (max-width:821px){
-    .team1{
+    /* .team1{
     margin-left:20px ;
-    }
+    } */
 }
 @media screen and (max-width:808px) {
-    .team1{
+    /* .team1{
         width: 350px;
-    }
+    } */
 }
 @media screen and (max-width:376px) {
-    .team1{
+    /* .team1{
         width: 250px;
         margin-right: 90px;
-    }
+    } */
     #car, #first, #second, #third{
         height: 50vh;
     }
@@ -204,9 +218,9 @@
     .content h1{
         font-size: 20px;
     }
-    .team1{
+    /* .team1{
         margin-left: 65px;
-    }
+    } */
     .hds h3{
         font-size: 15px;
     }
@@ -217,9 +231,9 @@
     
 }
 @media screen and (max-width:525px) {
-    .team1{
+    /* .team1{
         margin-left: 65px;
-    }
+    } */
 }
 @media screen and (max-width:415px) {
     .team1{
