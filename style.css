@@ -263,11 +263,12 @@
     background-size: contain;  
     background-repeat: no-repeat; 
     background-position: center;  
-    position: relative;
     margin-bottom: 20px;
 }
 .name{
+    width: 350px;
     text-align: center;
+
 }
 .exec_con{
     display: flex;
@@ -423,9 +424,9 @@ section .section-title {
 }
 }
 @media screen and (max-width:999px){
-    #tact{
+    /* #tact{
         display: none;
-    }
+    } */
 }
 @media screen and (max-width:574px){
     #tact{
@@ -464,7 +465,7 @@ section .section-title {
     padding: 30px;
 }
 .hds{
-    border-radius:50px;
+    border-radius:15px;
     margin-bottom: 20px;
     background-color: rgb(7, 7, 61);
     color: white;
