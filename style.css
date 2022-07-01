@@ -207,6 +207,13 @@
     .team1{
         margin-left: 65px;
     }
+    .hds h3{
+        font-size: 15px;
+    }
+    .hds .ss{
+        font-size: 20px !important ;
+        padding: 5px !important;
+    }
     
 }
 @media screen and (max-width:525px) {
@@ -230,6 +237,10 @@
     }
     .content h1{
         font-size: 30px;
+    }
+    .hds .ss{
+        font-size: 22px !important ;
+        padding: 10px !important;
     }
 }
 .numbers h1{
@@ -446,4 +457,58 @@ section .section-title {
     }
 #back-to-top.visible{
     opacity: 1;
+}
+/* ABOUT CSS */
+.hd{
+    color: rgb(7, 7, 61);
+    padding: 30px;
+}
+.hds{
+    border-radius:50px;
+    margin-bottom: 20px;
+    background-color: rgb(7, 7, 61);
+    color: white;
+}
+.hds h3{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.hds .ss{
+    padding-bottom: 20px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+.ava{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-size: contain;  
+    background-repeat: no-repeat; 
+    background-position: center;  
+    position: relative;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:992px) {
+    .hds .ss{
+        font-size:18px !important ;
+    }
+}
+@media screen and (max-width:764px){
+    .hds .ss{
+        padding: 10px !important;
+        font-size: 15px !important;
+    }
+}
+@media screen and (max-width:768px) {
+        .ld{
+            text-align: center;
+        }
+}
+@media screen and (max-width:576px) {
+    #lds{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
