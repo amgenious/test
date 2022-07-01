@@ -340,6 +340,7 @@
   .form-box input{
     margin-bottom: 20px;
     height: 55px;
+    outline: none;
   }
   
    .form-box textarea {
