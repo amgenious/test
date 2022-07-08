@@ -558,3 +558,43 @@ section .section-title {
     object-fit: cover !important;
 
 }
+/* PROJECT CURIOSITY */
+#di{
+    background-image: url('https://drive.google.com/uc?export=view&id=1t8ZZU-III4dKj5eYd-Ui1Y5w0ITWLpkG'); 
+    background-position: center;    
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.abs{
+    height: max-content;
+    background-color: #ffc400;
+    border-radius: 20px;
+    padding: 20px;
+}
+.pro{
+    height: max-content;
+    background-color: #b8f16e;
+    border-radius: 20px;
+    padding: 20px;
+}
+.obj{
+    height: max-content;
+    background-color: #fd5000;
+    border-radius: 20px;
+    padding: 20px;
+}
+.app{
+    height: max-content;
+    background-color: #00fd54;
+    border-radius: 20px;
+    padding: 20px;
+}
+.mth{
+    height: max-content;
+    background-color: #fdf90f;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
