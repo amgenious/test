@@ -568,31 +568,31 @@ section .section-title {
 }
 .abs{
     height: max-content;
-    background-color: #ffc400;
+    background-color: rgba(227, 132, 79, 1);
     border-radius: 20px;
     padding: 20px;
 }
 .pro{
     height: max-content;
-    background-color: #b8f16e;
+    background-color: rgba(149, 202, 202, 1);
     border-radius: 20px;
     padding: 20px;
 }
 .obj{
     height: max-content;
-    background-color: #fd5000;
+    background-color: rgba(208, 183, 49, 1);
     border-radius: 20px;
     padding: 20px;
 }
 .app{
     height: max-content;
-    background-color: #00fd54;
+    background-color: rgba(140, 197, 95, 1);
     border-radius: 20px;
     padding: 20px;
 }
 .mth{
     height: max-content;
-    background-color: #fdf90f;
+    background-color:rgba(220, 192, 92, 1);
     border-radius: 20px;
     padding: 20px;
 }
@@ -601,5 +601,16 @@ section .section-title {
     #daa{
         padding-bottom: 20px;
     }
+}
+.bit{
+    border: 2px solid rgb(12, 12, 117); 
+    height: 50px; 
+    width: 100px; 
+    border-radius: 20px;
+    background-color: white;
+}
+.bit:hover{
+    background-color: rgb(12,12,117);
+    color: white;
 }
 
