@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+#top{
+    border: 2px solid rgb(65, 64, 64);
+    height: 110px;
+}
 .head{
     display: flex;
     flex-direction: row;
@@ -186,6 +190,7 @@
     display: flex;
     justify-content: space-evenly;
 }
+
 @media screen and (max-width:1291px){
    
     .team1{
@@ -521,6 +526,7 @@ section .section-title {
     background-repeat: no-repeat; 
     background-position: center;
 }
+
 /* GALLERY PAGE */
 #sid{
     background-image: url(https://images.unsplash.com/photo-1578985824626-945a6f546304?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FsbGVyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60); 
@@ -572,6 +578,10 @@ section .section-title {
     background: rgb(0, 0, 0,.5);
     color: white;
 } 
+#pro_cover1{
+    background: rgb(0, 0, 0,.5);
+    height: 100%;
+}
 /* PROJECT CURIOSITY */
 #di{
     background-image: url('https://drive.google.com/uc?export=view&id=1t8ZZU-III4dKj5eYd-Ui1Y5w0ITWLpkG'); 
@@ -627,4 +637,24 @@ section .section-title {
     background-color: rgb(12,12,117);
     color: white;
 }
-
+#fold1{
+    display: flex;
+    flex-direction:column; 
+    align-items:center; 
+    justify-content: space-evenly;
+}
+#press{
+    padding-left: 10px;
+}
+@media only screen and (max-width: 765px){
+    #press{
+        padding-left: 0;
+        display: flex;
+        flex-direction:column; 
+        align-items:center; 
+        justify-content: space-evenly;
+    }
+    #footer_things{
+        display: none;
+    }
+}
