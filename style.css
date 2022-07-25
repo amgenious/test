@@ -3,10 +3,10 @@
     padding: 0;
     margin: 0;
 }
-#top{
+/* #top{
     border: 2px solid rgb(65, 64, 64);
     height: 110px;
-}
+} */
 .head{
     display: flex;
     flex-direction: row;
@@ -35,6 +35,7 @@
     .main{
         display: none;
     }
+   
 }
 #first{
     height: 70vh; 
@@ -520,7 +521,7 @@ section .section-title {
 }
 /* CONTACT PAGE */
 #sd{
-    background-image: url(https://images.unsplash.com/photo-1499159058454-75067059248a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29udGFjdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60); 
+    background-image: url(https://images.unsplash.com/photo-1587560699334-bea93391dcef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FsbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60); 
     background-position: center;    
     background-size: cover;
     background-repeat: no-repeat; 
@@ -627,14 +628,18 @@ section .section-title {
     }
 }
 .bit{
-    border: 2px solid rgb(12, 12, 117); 
+    border: 2px solid rgb(7, 7, 61); 
     height: 50px; 
     width: 100px; 
     border-radius: 20px;
     background-color: white;
+    color: rgb(12, 12, 116);
 }
 .bit:hover{
-    background-color: rgb(12,12,117);
+    background-color: rgb(7,7,61);
+    color: white;
+}
+.bit a :hover{
     color: white;
 }
 #fold1{
